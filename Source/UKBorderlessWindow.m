@@ -12,7 +12,7 @@
 @implementation UKBorderlessWindow
 
 // Designated Initializer:
--(id)   initWithContentRect: (NSRect)box styleMask: (unsigned long)sty backing: (NSBackingStoreType)bs defer: (BOOL)def
+-(id)   initWithContentRect: (NSRect)box styleMask: (NSWindowStyleMask)sty backing: (NSBackingStoreType)bs defer: (BOOL)def
 {
 	self = [super initWithContentRect:box styleMask: NSBorderlessWindowMask backing:bs defer: def];
 	
